@@ -1,0 +1,30 @@
+Moka
+Copyright 2026 Moka contributors
+
+This product includes software adapted from Laya (Apache-2.0):
+https://github.com/NandhaKishorM/laya
+Copyright Convai Innovations and Laya contributors.
+Upstream source revision: 573e5b62696ba441230cd6be71d593331b5d23af
+
+Prompt construction, tokenization, result formatting, validation fixtures, the
+ModernBERT architecture implementation, and the Snake game, policy, terminal UI
+and benchmark tools are adapted from laya-mlx and laya-coreml:
+
+https://github.com/mizorewww/laya-mlx
+Copyright 2026 laya-mlx contributors. Licensed under Apache-2.0.
+Adapted revision: fc1df62828a3fedf4d8229fdac1cbd85f1cdf337
+
+https://github.com/mizorewww/laya-coreml
+Copyright 2026 laya-coreml contributors. Licensed under Apache-2.0.
+
+Changes in Moka: ONNX Runtime backend (CPU / optional CUDA, TensorRT, OpenVINO),
+export-only PyTorch graph targeting ONNX instead of Core ML, dynamic-axis
+input handling, Linux RAPL energy sampling, INT8 dynamic quantization as an
+opt-in approximate variant, and a Linux CI fidelity gate.
+
+The model follows Laya's DecisionModel and Hugging Face Transformers ModernBERT.
+Original checkpoint weights belong to their respective upstream authors and are
+downloaded separately. No Hub weights are included in this repository.
+
+Moka is an independent community port, not an official release of Convai
+Innovations, laya-coreml, laya-mlx, Microsoft ONNX Runtime, or Intel OpenVINO.

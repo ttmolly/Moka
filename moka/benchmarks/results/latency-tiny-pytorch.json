@@ -1,0 +1,16 @@
+{
+  "p50_ms": 2.9722674999561605,
+  "p95_ms": 3.5984282000470103,
+  "mean_ms": 3.086357674987994,
+  "decisions_per_sec": 324.0065168415356,
+  "hardware": {
+    "cpu": "Intel(R) Xeon(R) Platinum 8481C CPU @ 2.70GHz",
+    "cores": 2,
+    "ram_bytes": 4121083904,
+    "machine": "x86_64",
+    "platform": "Linux-6.12.8+-x86_64-with-glibc2.36",
+    "python": "3.10.21",
+    "gpu": null
+  },
+  "note": "eager DecisionModel forward only, no tokenization/calibration"
+}

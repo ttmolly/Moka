@@ -1,0 +1,36 @@
+{
+  "bundle": "artifacts/moka-tiny",
+  "provider_requested": "cpu",
+  "provider_active": "CPUExecutionProvider",
+  "questions_per_call": 1,
+  "warmup": 8,
+  "runs": 40,
+  "p50_ms": 2.4524519999431504,
+  "p95_ms": 2.670557949926433,
+  "mean_ms": 2.454299749987854,
+  "min_ms": 2.235130999906687,
+  "max_ms": 2.7391040000566136,
+  "decisions_per_sec": 407.44819372814953,
+  "hardware": {
+    "cpu": "Intel(R) Xeon(R) Platinum 8481C CPU @ 2.70GHz",
+    "cores": 2,
+    "ram_bytes": 4121083904,
+    "machine": "x86_64",
+    "platform": "Linux-6.12.8+-x86_64-with-glibc2.36",
+    "python": "3.10.21",
+    "gpu": null
+  },
+  "onnxruntime": "1.23.2",
+  "energy": {
+    "available": false,
+    "reason": "RAPL energy_uj is not readable on this host (no intel-rapl sysfs, or permission denied). nvidia-smi is also unavailable. Energy per decision is not reported.",
+    "elapsed_s": 0.09822009899994555,
+    "sensor": "none",
+    "uncertainty": "no sensor"
+  },
+  "notes": [
+    "Wall time includes prompt construction, tokenization, ORT session.run, calibration and formatting.",
+    "Loading and warmup are excluded.",
+    "Energy is RAPL when the counter is readable; otherwise omitted with a reason."
+  ]
+}

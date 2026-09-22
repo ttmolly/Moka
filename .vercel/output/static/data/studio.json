@@ -1,0 +1,73 @@
+{
+  "host": {
+    "cpu": "Intel(R) Xeon(R) Platinum 8481C CPU @ 2.70GHz",
+    "cores": 2,
+    "ram_bytes": 4121083904,
+    "machine": "x86_64",
+    "platform": "Linux-6.12.8+-x86_64-with-glibc2.36",
+    "python": "3.10.21",
+    "gpu": null
+  },
+  "onnxruntime": "1.23.2",
+  "fidelity_fp32": {
+    "matched": 43,
+    "total": 43,
+    "max_probability_drift": 0.0,
+    "passed": true,
+    "stable": true,
+    "max_drift_budget": 0.0001,
+    "precision": "fp32"
+  },
+  "fidelity_int8": {
+    "matched": 41,
+    "total": 43,
+    "max_probability_drift": 0.009800000000000031,
+    "passed": false,
+    "stable": true,
+    "max_drift_budget": 0.02,
+    "precision": "int8"
+  },
+  "latency_ort": {
+    "p50_ms": 2.4524519999431504,
+    "p95_ms": 2.670557949926433,
+    "mean_ms": 2.454299749987854,
+    "decisions_per_sec": 407.44819372814953,
+    "runs": 40,
+    "questions_per_call": 1
+  },
+  "latency_pytorch": {
+    "p50_ms": 2.9722674999561605,
+    "p95_ms": 3.5984282000470103,
+    "mean_ms": 3.086357674987994,
+    "decisions_per_sec": 324.0065168415356,
+    "hardware": {
+      "cpu": "Intel(R) Xeon(R) Platinum 8481C CPU @ 2.70GHz",
+      "cores": 2,
+      "ram_bytes": 4121083904,
+      "machine": "x86_64",
+      "platform": "Linux-6.12.8+-x86_64-with-glibc2.36",
+      "python": "3.10.21",
+      "gpu": null
+    },
+    "note": "eager DecisionModel forward only, no tokenization/calibration"
+  },
+  "energy": {
+    "available": false,
+    "reason": "RAPL energy_uj is not readable on this host (no intel-rapl sysfs, or permission denied). nvidia-smi is also unavailable. Energy per decision is not reported.",
+    "elapsed_s": 0.09822009899994555,
+    "sensor": "none",
+    "uncertainty": "no sensor"
+  },
+  "snake": {
+    "ticks": 180,
+    "score": 13,
+    "length": 17,
+    "alive": true,
+    "won": false,
+    "interventions": 6,
+    "seconds": 0.7724040970000488,
+    "decisions_per_sec": 233.038639617662,
+    "death_reason": null
+  },
+  "speedup_vs_pytorch": 1.2119574613591049
+}

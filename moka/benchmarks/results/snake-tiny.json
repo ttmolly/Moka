@@ -1,0 +1,11 @@
+{
+  "ticks": 180,
+  "score": 13,
+  "length": 17,
+  "alive": true,
+  "won": false,
+  "interventions": 6,
+  "seconds": 0.7724040970000488,
+  "decisions_per_sec": 233.038639617662,
+  "death_reason": null
+}

@@ -1,0 +1,14 @@
+{
+  "head_layers": 2,
+  "act_costs": {
+    "escalate": 0.5
+  },
+  "max_len": 96,
+  "head_max_len": 48,
+  "encoder": "moka-tiny",
+  "temperature": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

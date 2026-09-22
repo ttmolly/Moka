@@ -1,0 +1,26 @@
+{
+  "encoder/config.json": {
+    "bytes": 248,
+    "sha256": "e66180152908bd2430e8949d1c46b5746e29da2d714a153c9f634dbe3ca2e8cf"
+  },
+  "model.onnx": {
+    "bytes": 1319020,
+    "sha256": "3a233efb10aa22981244728f5a625f60759a5f001899a37f5d5fbe8696740b8d"
+  },
+  "rl_agent_config.json": {
+    "bytes": 180,
+    "sha256": "87769556b04b649a069f3f7475e327415e2139c3060c57a204d1b3402fc3353b"
+  },
+  "tokenizer/tokenizer.json": {
+    "bytes": 2849,
+    "sha256": "45172563f7cb1ae3c3fc79d0dab1c4ad9f766d71f0040d919fef224b79f686eb"
+  },
+  "tokenizer/tokenizer_config.json": {
+    "bytes": 90,
+    "sha256": "1893a0c6ecd7ef8519a40addb7f9c8e422c2e9317862fe14c2c621ade5dbdd51"
+  },
+  "tokenizer/vocab.json": {
+    "bytes": 1903,
+    "sha256": "f6fe2543446c98974c41eb1088dbb8d2dd839e494b65fc2378e950a69fe896ee"
+  }
+}

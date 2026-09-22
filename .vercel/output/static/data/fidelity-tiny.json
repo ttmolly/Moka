@@ -1,0 +1,105 @@
+{
+  "bundle": "artifacts/moka-tiny",
+  "precision": "fp32",
+  "approximate": false,
+  "max_drift_budget": 0.0001,
+  "matched": 43,
+  "total": 43,
+  "max_probability_drift": 0.0,
+  "repeated_calls": 20,
+  "stable": true,
+  "passed": true,
+  "hardware_note": "Compared against the export-graph PyTorch reference on this host.",
+  "cases": [
+    {
+      "name": "email",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0
+    },
+    {
+      "name": "en",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0
+    },
+    {
+      "name": "zh",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0
+    },
+    {
+      "name": "de",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0
+    },
+    {
+      "name": "fr",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0
+    },
+    {
+      "name": "es",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0
+    },
+    {
+      "name": "hi",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0
+    },
+    {
+      "name": "ja",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0
+    },
+    {
+      "name": "ru",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0
+    },
+    {
+      "name": "empty_state",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0
+    },
+    {
+      "name": "long",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0
+    },
+    {
+      "name": "conversation",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0
+    },
+    {
+      "name": "mask_literals",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0
+    },
+    {
+      "name": "structured",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0
+    },
+    {
+      "name": "twenty_options",
+      "matched": 1,
+      "total": 1,
+      "drift": 0.0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Moka",
+      "hasCanvas": false,
+      "bodyTextLen": 1368,
+      "bodyTextHash": "c12647b483155e5bb1468efe01ba93e8f703bc2f361e40964f144e1eb2ad81c7",
+      "bodyTextPrefix": "Moka LINUX · ORT Studio Playground Snake Convert Benchmarks Fide",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Moka",
+      "hasCanvas": false,
+      "bodyTextLen": 1368,
+      "bodyTextHash": "c12647b483155e5bb1468efe01ba93e8f703bc2f361e40964f144e1eb2ad81c7",
+      "bodyTextPrefix": "Moka LINUX · ORT Studio Playground Snake Convert Benchmarks Fide",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

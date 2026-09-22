@@ -1,0 +1,1430 @@
+{
+  "sha": "4619e0483f07adf39068532e85b42ec2347edb83",
+  "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/4619e0483f07adf39068532e85b42ec2347edb83",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18236574b3000c3c147cfab7ea70cb32c668f201",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/18236574b3000c3c147cfab7ea70cb32c668f201"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "088e1fa9e40b3d16262f879250c80a6b8bc10798",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/088e1fa9e40b3d16262f879250c80a6b8bc10798"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cc86660b14f4df58d6b1f417cb912bf5338c190",
+      "size": 571,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/3cc86660b14f4df58d6b1f417cb912bf5338c190"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e89ab2bd5ccb2d720f214d37851526a10790d7e9",
+      "size": 165,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/e89ab2bd5ccb2d720f214d37851526a10790d7e9"
+    },
+    {
+      "path": "BENCHMARKS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbc15b8f6a7b4c9fcb14324569bd4fee6b09a2b8",
+      "size": 7336,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/bbc15b8f6a7b4c9fcb14324569bd4fee6b09a2b8"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9a10c0d8e868ebf8da0b3dc95bb0be634c34bfe",
+      "size": 10173,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/d9a10c0d8e868ebf8da0b3dc95bb0be634c34bfe"
+    },
+    {
+      "path": "NOTICE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d08ac50faf9d6f95821972f372058c56e5bda3e4",
+      "size": 1209,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/d08ac50faf9d6f95821972f372058c56e5bda3e4"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7d2f92271086147095e863e40104517ac15b4f9",
+      "size": 9092,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/c7d2f92271086147095e863e40104517ac15b4f9"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "241c7f5b032ea9418edff0bf91c77924df8e22ee",
+      "size": 6779,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/241c7f5b032ea9418edff0bf91c77924df8e22ee"
+    },
+    {
+      "path": "benchmarks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "384f09f37a3fbdfd8ef43b5c24291650cb65d4e2",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/384f09f37a3fbdfd8ef43b5c24291650cb65d4e2"
+    },
+    {
+      "path": "benchmarks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "benchmarks/campaign.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "668a1a4a4cb539067b3b07f73128b9ea8048f1fc",
+      "size": 2727,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/668a1a4a4cb539067b3b07f73128b9ea8048f1fc"
+    },
+    {
+      "path": "benchmarks/cases.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12fa51af28b1e0cd1306e4e74c3b237a7e5367c9",
+      "size": 3198,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/12fa51af28b1e0cd1306e4e74c3b237a7e5367c9"
+    },
+    {
+      "path": "benchmarks/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f8f58c894d8c55e7e463c37c21e4d2b05913665",
+      "size": 3940,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/1f8f58c894d8c55e7e463c37c21e4d2b05913665"
+    },
+    {
+      "path": "benchmarks/compact_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb738933e3a87700a68b13dac9189cf24c7efa87",
+      "size": 2189,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/eb738933e3a87700a68b13dac9189cf24c7efa87"
+    },
+    {
+      "path": "benchmarks/energy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4da82403f86aff178c30400643bec3cee4e753f1",
+      "size": 17176,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/4da82403f86aff178c30400643bec3cee4e753f1"
+    },
+    {
+      "path": "benchmarks/energy_summary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "830c7dd219742378900a23ba81891e3742bbb6a8",
+      "size": 6992,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/830c7dd219742378900a23ba81891e3742bbb6a8"
+    },
+    {
+      "path": "benchmarks/pstr_sampler",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fac57e789e78e5cfcbc74660c20bf9ff60ee0666",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/fac57e789e78e5cfcbc74660c20bf9ff60ee0666"
+    },
+    {
+      "path": "benchmarks/pstr_sampler/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b83d22266ac8aa2f8df2edef68082c789727841d",
+      "size": 9,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/b83d22266ac8aa2f8df2edef68082c789727841d"
+    },
+    {
+      "path": "benchmarks/pstr_sampler/Cargo.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c60705ee9fbc5ad22daedf64c2ee3ceb3bfa88b3",
+      "size": 3568,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/c60705ee9fbc5ad22daedf64c2ee3ceb3bfa88b3"
+    },
+    {
+      "path": "benchmarks/pstr_sampler/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45a736308c97a830180eecf558ed60580d04a5b1",
+      "size": 319,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/45a736308c97a830180eecf558ed60580d04a5b1"
+    },
+    {
+      "path": "benchmarks/pstr_sampler/LICENSE.macmon",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4659b63db61499233c62df50bb91414b25f9061b",
+      "size": 1065,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/4659b63db61499233c62df50bb91414b25f9061b"
+    },
+    {
+      "path": "benchmarks/pstr_sampler/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1fb1900192fb48dbb1c4409e730395d90347c64",
+      "size": 2459,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/d1fb1900192fb48dbb1c4409e730395d90347c64"
+    },
+    {
+      "path": "benchmarks/pstr_sampler/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9a256a6d69d0928cf679bcd9c07e962be056de5",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/c9a256a6d69d0928cf679bcd9c07e962be056de5"
+    },
+    {
+      "path": "benchmarks/pstr_sampler/src/main.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca2bafdb9c1ea48dd550ccd4ed1509a753e77bb3",
+      "size": 5139,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/ca2bafdb9c1ea48dd550ccd4ed1509a753e77bb3"
+    },
+    {
+      "path": "benchmarks/reference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c023e6b5f52e8bb2c0561474bdfc595f4348caa",
+      "size": 3826,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/9c023e6b5f52e8bb2c0561474bdfc595f4348caa"
+    },
+    {
+      "path": "benchmarks/release_validate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7614673ed8b9cf10ba2b87de0991614cb02c7ce1",
+      "size": 5849,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/7614673ed8b9cf10ba2b87de0991614cb02c7ce1"
+    },
+    {
+      "path": "benchmarks/report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec377e4da70b11d5392b98a20cb9379d3ebab037",
+      "size": 9592,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/ec377e4da70b11d5392b98a20cb9379d3ebab037"
+    },
+    {
+      "path": "benchmarks/results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f5bba4b923a1cbf99ba35c93d23fc20ced5927c",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/8f5bba4b923a1cbf99ba35c93d23fc20ced5927c"
+    },
+    {
+      "path": "benchmarks/results/ane-energy-finalists.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2310bafd8e45055a5c156ff343a1e93c08dd80a0",
+      "size": 1621388,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/2310bafd8e45055a5c156ff343a1e93c08dd80a0"
+    },
+    {
+      "path": "benchmarks/results/ane-energy-fp16.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "844d2e80c59d290a013dc79c09d0f2ce033541bf",
+      "size": 4214952,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/844d2e80c59d290a013dc79c09d0f2ce033541bf"
+    },
+    {
+      "path": "benchmarks/results/ane-energy-rejected-telemetry.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fef118bec8829c52b30e8b35604ac4fc50470b3e",
+      "size": 4676903,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/fef118bec8829c52b30e8b35604ac4fc50470b3e"
+    },
+    {
+      "path": "benchmarks/results/ane-energy-summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89d47444c9c400b1c48a90a3a84e59c11b106975",
+      "size": 8673,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/89d47444c9c400b1c48a90a3a84e59c11b106975"
+    },
+    {
+      "path": "benchmarks/results/ane-hardware-events.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14f3f9b70459c70b7f89d5b777b09f054a68b878",
+      "size": 449023,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/14f3f9b70459c70b7f89d5b777b09f054a68b878"
+    },
+    {
+      "path": "benchmarks/results/ane-snake.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea6a55e83973e24ae0dcb475c40af66e39e70863",
+      "size": 846087,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/ea6a55e83973e24ae0dcb475c40af66e39e70863"
+    },
+    {
+      "path": "benchmarks/results/coreml-snake-showcase.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8358d66278eead4cd767f8e0731ea8c78225a43",
+      "size": 749521,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/f8358d66278eead4cd767f8e0731ea8c78225a43"
+    },
+    {
+      "path": "benchmarks/results/coreml-snake.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bb484351b87c5935b3c1cb9a255e8c482cd6b90",
+      "size": 2087252,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/2bb484351b87c5935b3c1cb9a255e8c482cd6b90"
+    },
+    {
+      "path": "benchmarks/results/distribution-files.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeb2b482dfef149b2110f77615d85a57e5d3d66e",
+      "size": 418,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/eeb2b482dfef149b2110f77615d85a57e5d3d66e"
+    },
+    {
+      "path": "benchmarks/results/hub-release.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dbc5fbfa126cea9eca30f7fabd831751c391061",
+      "size": 3400,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/4dbc5fbfa126cea9eca30f7fabd831751c391061"
+    },
+    {
+      "path": "benchmarks/results/perf-laya-coreml.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fda195467eb58a4e2db0c79c8b3814b17d7917d",
+      "size": 514542,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/5fda195467eb58a4e2db0c79c8b3814b17d7917d"
+    },
+    {
+      "path": "benchmarks/results/perf-laya-mlx.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b1650d3d0cfbcbfe811011fa05fa042d5adc27a",
+      "size": 16485,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/3b1650d3d0cfbcbfe811011fa05fa042d5adc27a"
+    },
+    {
+      "path": "benchmarks/results/perf-laya-multilingual-coreml.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5be635f38a89408dcd5049b82b99fa4059885188",
+      "size": 416039,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/5be635f38a89408dcd5049b82b99fa4059885188"
+    },
+    {
+      "path": "benchmarks/results/perf-laya-multilingual-mlx.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddb8f0ec2bcf66025de529bcd4af9aa5e1ddbcde",
+      "size": 16432,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/ddb8f0ec2bcf66025de529bcd4af9aa5e1ddbcde"
+    },
+    {
+      "path": "benchmarks/results/perf-laya-typed-decisions-coreml.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8e96b969b628432995ef0b6ac41ac2b1e69f922",
+      "size": 515074,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/a8e96b969b628432995ef0b6ac41ac2b1e69f922"
+    },
+    {
+      "path": "benchmarks/results/perf-laya-typed-decisions-mlx.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96412c2996938a9cfd61f50cc509645483f309d3",
+      "size": 16488,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/96412c2996938a9cfd61f50cc509645483f309d3"
+    },
+    {
+      "path": "benchmarks/results/perf-multilingual-all.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecb20794b27399e7868236fddda6a10cdf84b8d9",
+      "size": 402592,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/ecb20794b27399e7868236fddda6a10cdf84b8d9"
+    },
+    {
+      "path": "benchmarks/results/perf-multilingual-cpu.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cf1e42811a02c58b739d13576181c2826b0c6aa",
+      "size": 402584,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/7cf1e42811a02c58b739d13576181c2826b0c6aa"
+    },
+    {
+      "path": "benchmarks/results/perf-multilingual-cpu_ne.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b014c7c84438bcd0577444eca5717f64bc8abd9",
+      "size": 402594,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/6b014c7c84438bcd0577444eca5717f64bc8abd9"
+    },
+    {
+      "path": "benchmarks/results/perf-multilingual-long-coreml.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60aa83660879a0f14f6d8953bf08573e4b411b79",
+      "size": 5421,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/60aa83660879a0f14f6d8953bf08573e4b411b79"
+    },
+    {
+      "path": "benchmarks/results/perf-multilingual-long-mlx.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1390a7d1cff08f9eb4d3802978aa69aedd6a86bd",
+      "size": 3326,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/1390a7d1cff08f9eb4d3802978aa69aedd6a86bd"
+    },
+    {
+      "path": "benchmarks/results/pypi-install-smoke.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2384aab550471ece29a56c0ef4bf1e725941df8",
+      "size": 1125,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/e2384aab550471ece29a56c0ef4bf1e725941df8"
+    },
+    {
+      "path": "benchmarks/results/pypi-release.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df37483c431aff30ff3d815438be348ae1f79a32",
+      "size": 924,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/df37483c431aff30ff3d815438be348ae1f79a32"
+    },
+    {
+      "path": "benchmarks/results/reference.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3d5c17097548e384bcb13d435b145e77725a5ad",
+      "size": 247891,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/c3d5c17097548e384bcb13d435b145e77725a5ad"
+    },
+    {
+      "path": "benchmarks/results/release-validation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ecceea7b5c2e64e3fb66e5e14436aaec26a65e2",
+      "size": 28250,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/6ecceea7b5c2e64e3fb66e5e14436aaec26a65e2"
+    },
+    {
+      "path": "benchmarks/results/runtime-smoke.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e7ebc74a08f0314a2906e9b7c30f4540769e084",
+      "size": 2213,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/5e7ebc74a08f0314a2906e9b7c30f4540769e084"
+    },
+    {
+      "path": "benchmarks/results/snake.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9899cc23d060d07816fb3a9657a2c4483f86b39d",
+      "size": 457057,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/9899cc23d060d07816fb3a9657a2c4483f86b39d"
+    },
+    {
+      "path": "benchmarks/results/validation-laya-enumerated-cpu_gpu.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f199ffd89943dd4688e54cc9847b12e1a0d6c864",
+      "size": 8347,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/f199ffd89943dd4688e54cc9847b12e1a0d6c864"
+    },
+    {
+      "path": "benchmarks/results/validation-laya.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29e5ce30e4273b4c71ef019eead50b4f04303037",
+      "size": 8402,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/29e5ce30e4273b4c71ef019eead50b4f04303037"
+    },
+    {
+      "path": "benchmarks/results/validation-multilingual-cpu_gpu.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "696f3854201c608503842a1fd1edc51bbc7e4601",
+      "size": 8096,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/696f3854201c608503842a1fd1edc51bbc7e4601"
+    },
+    {
+      "path": "benchmarks/results/validation-multilingual-enumerated-all.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f1c5f09ba3996edf604011077cd4253eec94d9b",
+      "size": 8413,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/7f1c5f09ba3996edf604011077cd4253eec94d9b"
+    },
+    {
+      "path": "benchmarks/results/validation-multilingual-enumerated-cpu_gpu.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f12900e3f56524705b04d3e043ca1722c46d089b",
+      "size": 8414,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/f12900e3f56524705b04d3e043ca1722c46d089b"
+    },
+    {
+      "path": "benchmarks/results/validation-multilingual-enumerated-cpu_ne.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32d6dd077a2b5664ef757feda88140be3d6ecf60",
+      "size": 8253,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/32d6dd077a2b5664ef757feda88140be3d6ecf60"
+    },
+    {
+      "path": "benchmarks/results/validation-multilingual-explicit-cpu_gpu.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d8c111f74e0b90887fde6cbb00aecf502560252",
+      "size": 8157,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/8d8c111f74e0b90887fde6cbb00aecf502560252"
+    },
+    {
+      "path": "benchmarks/results/validation-multilingual-fp32.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26bb139da69680c74b6fa61747f2fb95c3f08476",
+      "size": 8466,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/26bb139da69680c74b6fa61747f2fb95c3f08476"
+    },
+    {
+      "path": "benchmarks/results/validation-multilingual-range-v2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4b7f349f5fdf4626ffc108a9e2c1ad1d0140a56",
+      "size": 8069,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/f4b7f349f5fdf4626ffc108a9e2c1ad1d0140a56"
+    },
+    {
+      "path": "benchmarks/results/validation-multilingual-sdpa-all.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d349fb7f409f925dbf6a9f68827da61e9a16dcb2",
+      "size": 8031,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/d349fb7f409f925dbf6a9f68827da61e9a16dcb2"
+    },
+    {
+      "path": "benchmarks/results/validation-multilingual.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a08899857aaff86b03359985b69d1420e92674d6",
+      "size": 8466,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/a08899857aaff86b03359985b69d1420e92674d6"
+    },
+    {
+      "path": "benchmarks/results/validation-typed-decisions.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c40ae93821f49dfce0a0ff2f178676f0d86b80d9",
+      "size": 8462,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/c40ae93821f49dfce0a0ff2f178676f0d86b80d9"
+    },
+    {
+      "path": "benchmarks/results/validation-typed-enumerated-cpu_gpu.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c8aa8975d70fa30117b72bdab11450bb46b85b0",
+      "size": 8408,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/3c8aa8975d70fa30117b72bdab11450bb46b85b0"
+    },
+    {
+      "path": "benchmarks/results/wheel-runtime-smoke.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eed60ace668df7cc0d281c2413aa544531a464e",
+      "size": 4038,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/4eed60ace668df7cc0d281c2413aa544531a464e"
+    },
+    {
+      "path": "benchmarks/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57561a89d6dfb1fabaf8b34752296a5416e41d23",
+      "size": 4049,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/57561a89d6dfb1fabaf8b34752296a5416e41d23"
+    },
+    {
+      "path": "benchmarks/snake.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a27f20b6f59043321cad7be56f0c1f90a3604ec0",
+      "size": 4319,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/a27f20b6f59043321cad7be56f0c1f90a3604ec0"
+    },
+    {
+      "path": "benchmarks/trace_ane.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff0442ef25464583f73f9ac33fe406a2c6967f21",
+      "size": 1178,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/ff0442ef25464583f73f9ac33fe406a2c6967f21"
+    },
+    {
+      "path": "benchmarks/trace_summary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "266627f1fc627840d8cc17ab3f4ecce007ed0242",
+      "size": 2741,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/266627f1fc627840d8cc17ab3f4ecce007ed0242"
+    },
+    {
+      "path": "benchmarks/validate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28967efa0f6f78793bba9b35329723517f849c7d",
+      "size": 6419,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/28967efa0f6f78793bba9b35329723517f849c7d"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55a6478720a9f319173039f74b71b4f6669cca5b",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/55a6478720a9f319173039f74b71b4f6669cca5b"
+    },
+    {
+      "path": "docs/ANE_BENCHMARKS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f153e5984db9793df7a1db0dc8e0912707131bc",
+      "size": 13239,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/2f153e5984db9793df7a1db0dc8e0912707131bc"
+    },
+    {
+      "path": "docs/ANE_ENGINEERING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9183228e04d47768df0f1b98ec08c845f94d871d",
+      "size": 22393,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/9183228e04d47768df0f1b98ec08c845f94d871d"
+    },
+    {
+      "path": "docs/ANE_MATH.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "907684e7d0e2647a7ddf35d3dcf059c23472c5b9",
+      "size": 19009,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/907684e7d0e2647a7ddf35d3dcf059c23472c5b9"
+    },
+    {
+      "path": "docs/CONVERSION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9541e4115537489612f0bb0dd712eb9282dc0a71",
+      "size": 6786,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/9541e4115537489612f0bb0dd712eb9282dc0a71"
+    },
+    {
+      "path": "docs/LAUNCH.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00b4008dff2a1cd8dcae3a8a345215b6e9d366d8",
+      "size": 4243,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/00b4008dff2a1cd8dcae3a8a345215b6e9d366d8"
+    },
+    {
+      "path": "docs/RELEASE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7471595984091333ed912340c8c6c4bb17b5ba9",
+      "size": 6595,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/c7471595984091333ed912340c8c6c4bb17b5ba9"
+    },
+    {
+      "path": "docs/SNAKE_BENCHMARKS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93080c2c866b54063cac0a11e7ec67230494eac0",
+      "size": 5293,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/93080c2c866b54063cac0a11e7ec67230494eac0"
+    },
+    {
+      "path": "docs/SNAKE_DEMO.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46c5aed50549a9897914d7c9269ec13d9d950006",
+      "size": 4875,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/46c5aed50549a9897914d7c9269ec13d9d950006"
+    },
+    {
+      "path": "docs/USAGE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "033f7ff36eefdebad4dc88948308f51a11ec1f26",
+      "size": 6582,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/033f7ff36eefdebad4dc88948308f51a11ec1f26"
+    },
+    {
+      "path": "docs/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a4e20374728616eb1b6ce4fd20a3bf6b62db3848",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/a4e20374728616eb1b6ce4fd20a3bf6b62db3848"
+    },
+    {
+      "path": "docs/assets/snake-demo.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a6c4d57ff5b53c0c254f1c619299985c974f8f",
+      "size": 1628259,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/d0a6c4d57ff5b53c0c254f1c619299985c974f8f"
+    },
+    {
+      "path": "docs/assets/snake-demo.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd8375d2ba2d912efd600e5f6dce3e491c48a8c7",
+      "size": 1541,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/bd8375d2ba2d912efd600e5f6dce3e491c48a8c7"
+    },
+    {
+      "path": "docs/assets/snake-demo.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adc57faff35072f96001e9e702c37015a1a0058b",
+      "size": 698541,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/adc57faff35072f96001e9e702c37015a1a0058b"
+    },
+    {
+      "path": "docs/assets/snake-preview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b81c9459e3e5b72567bf1092596e0447c129cc05",
+      "size": 96239,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/b81c9459e3e5b72567bf1092596e0447c129cc05"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d3952bcdf13f4c591c55d24121530fd295f7ff10",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/d3952bcdf13f4c591c55d24121530fd295f7ff10"
+    },
+    {
+      "path": "examples/questions.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3c525691b999ac6e5c1462b6ec563de9324c033",
+      "size": 580,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/e3c525691b999ac6e5c1462b6ec563de9324c033"
+    },
+    {
+      "path": "examples/quickstart.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6587f27b02495f8e0868c95492b4806a120de86f",
+      "size": 471,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/6587f27b02495f8e0868c95492b4806a120de86f"
+    },
+    {
+      "path": "examples/state.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63c2d8f607f00fd25338bf4162ee31b8752c8fec",
+      "size": 190,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/63c2d8f607f00fd25338bf4162ee31b8752c8fec"
+    },
+    {
+      "path": "experiments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a43ba44a8e657cf12f95e48d3ce21354be120979",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/a43ba44a8e657cf12f95e48d3ce21354be120979"
+    },
+    {
+      "path": "experiments/ane_engineering",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0b54f8b02100d0473971bd02e6b00792687603f",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/a0b54f8b02100d0473971bd02e6b00792687603f"
+    },
+    {
+      "path": "experiments/ane_engineering/artifact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3397575ded089ac067accdc909416031d0e3ce2f",
+      "size": 3398,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/3397575ded089ac067accdc909416031d0e3ce2f"
+    },
+    {
+      "path": "experiments/ane_engineering/benchmark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be1e4c1b7413dbea677c2f663f55ae881d2759c3",
+      "size": 2970,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/be1e4c1b7413dbea677c2f663f55ae881d2759c3"
+    },
+    {
+      "path": "experiments/ane_engineering/body1024",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "556e6563253c573bb972ee50e712660f1be1d83c",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/556e6563253c573bb972ee50e712660f1be1d83c"
+    },
+    {
+      "path": "experiments/ane_engineering/body1024/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebe5324cd86e47afd02e86b7e7ec59eed1ce424d",
+      "size": 1484,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/ebe5324cd86e47afd02e86b7e7ec59eed1ce424d"
+    },
+    {
+      "path": "experiments/ane_engineering/body1024/report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "493386685434ba0bbd4ca86139da691e79550cf3",
+      "size": 1627255,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/493386685434ba0bbd4ca86139da691e79550cf3"
+    },
+    {
+      "path": "experiments/ane_engineering/body192",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80bdde0ac761ac066b63beec23b06e3cf36f53e6",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/80bdde0ac761ac066b63beec23b06e3cf36f53e6"
+    },
+    {
+      "path": "experiments/ane_engineering/body192/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ab8ff7bddec04d9e660d6eadaa029cc895634b7",
+      "size": 1483,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/8ab8ff7bddec04d9e660d6eadaa029cc895634b7"
+    },
+    {
+      "path": "experiments/ane_engineering/body192/report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73ceb6061d937a7b94cc6ff233ba3a38ce710712",
+      "size": 1630007,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/73ceb6061d937a7b94cc6ff233ba3a38ce710712"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w4km",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f80c596f769229073acfb9dd50545f1bef94dd3f",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/f80c596f769229073acfb9dd50545f1bef94dd3f"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w4km/compression.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "048257acbbcf4e2d9c27592328ba3abd96af12b4",
+      "size": 1362,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/048257acbbcf4e2d9c27592328ba3abd96af12b4"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w4km/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4d50221af77ab55c89742b08f8703e5aa396ec6",
+      "size": 1936,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/b4d50221af77ab55c89742b08f8703e5aa396ec6"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w6km",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3be2015a3d44f61fd16ae6880067934f107dd486",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/3be2015a3d44f61fd16ae6880067934f107dd486"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w6km/compression.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9368c70c4d8e1c2d27e138a33c7f95e1e3ba7d77",
+      "size": 1363,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/9368c70c4d8e1c2d27e138a33c7f95e1e3ba7d77"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w6km/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4c25eb780f085c7656aa465fb85e594885f413a",
+      "size": 1936,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/b4c25eb780f085c7656aa465fb85e594885f413a"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w8",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5db2ae69abd1612f9853d604c0f1f8d6a218961",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/a5db2ae69abd1612f9853d604c0f1f8d6a218961"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w8/compression.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c2a1cadf47293409701b471485cccd74e68fbee",
+      "size": 1211,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/5c2a1cadf47293409701b471485cccd74e68fbee"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w8/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "483e13c1735500c0d0a9beedd527e3b8ff3d0a15",
+      "size": 1796,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/483e13c1735500c0d0a9beedd527e3b8ff3d0a15"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w8g4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6aec237cbd6f0300e667b5c8f20f7b202a996566",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/6aec237cbd6f0300e667b5c8f20f7b202a996566"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w8g4/compression.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c9a4fe2ce3a3f93faf09d72e96cf8a3c6f0ef2b",
+      "size": 1210,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/5c9a4fe2ce3a3f93faf09d72e96cf8a3c6f0ef2b"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w8g4/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "667e0c5f3679eb70e9add643317e0e19da95fcd3",
+      "size": 1795,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/667e0c5f3679eb70e9add643317e0e19da95fcd3"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w8km",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6f141b3bc8602fb04c5fb97b270ea02a165f27f",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/b6f141b3bc8602fb04c5fb97b270ea02a165f27f"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w8km/compression.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abc25cdc7edb7f527211acc4b14d055ee5f3ceeb",
+      "size": 1364,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/abc25cdc7edb7f527211acc4b14d055ee5f3ceeb"
+    },
+    {
+      "path": "experiments/ane_engineering/body96-w8km/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbdbddd7ed079aaf250418b171da984c034d7dab",
+      "size": 1937,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/dbdbddd7ed079aaf250418b171da984c034d7dab"
+    },
+    {
+      "path": "experiments/ane_engineering/body96",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ccdf4a3dbb6becf88015a133b2a032900e50295",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/0ccdf4a3dbb6becf88015a133b2a032900e50295"
+    },
+    {
+      "path": "experiments/ane_engineering/body96/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07c697ae863db77aa6f7dcec7dd0197f65e47e9d",
+      "size": 1655,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/07c697ae863db77aa6f7dcec7dd0197f65e47e9d"
+    },
+    {
+      "path": "experiments/ane_engineering/body96/report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1f40c44b4fe70999e66ce029a4f629f41052df4",
+      "size": 1626133,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/c1f40c44b4fe70999e66ce029a4f629f41052df4"
+    },
+    {
+      "path": "experiments/ane_engineering/layer96",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "711c8d69f7241a99190bd49d14362af9e11fd624",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/711c8d69f7241a99190bd49d14362af9e11fd624"
+    },
+    {
+      "path": "experiments/ane_engineering/layer96/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea07a07f0fcdfcf9e0b042adbdfa49de2f39760a",
+      "size": 1655,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/ea07a07f0fcdfcf9e0b042adbdfa49de2f39760a"
+    },
+    {
+      "path": "experiments/ane_engineering/layer96/report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8353602876ec86e62d219091d542c4de4cb19eef",
+      "size": 72649,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/8353602876ec86e62d219091d542c4de4cb19eef"
+    },
+    {
+      "path": "experiments/ane_engineering/long1024-performance.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4cd5a183d68f7f14538c324146030868cd5c5e9",
+      "size": 4814,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/c4cd5a183d68f7f14538c324146030868cd5c5e9"
+    },
+    {
+      "path": "experiments/ane_engineering/mlp96",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "566205fc0290e1decf290d7d2d760bda8f2aecc0",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/566205fc0290e1decf290d7d2d760bda8f2aecc0"
+    },
+    {
+      "path": "experiments/ane_engineering/mlp96/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0757721ec99318b70a44fb4a14c14fe2ac2e38c2",
+      "size": 1652,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/0757721ec99318b70a44fb4a14c14fe2ac2e38c2"
+    },
+    {
+      "path": "experiments/ane_engineering/mlp96/report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "489d0e960d34b7c09f7d6b7b69f7331b5333d928",
+      "size": 4672,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/489d0e960d34b7c09f7d6b7b69f7331b5333d928"
+    },
+    {
+      "path": "experiments/ane_engineering/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bd8dbbef35391ad04590bc17a2e54c3daf124c5",
+      "size": 5959,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/0bd8dbbef35391ad04590bc17a2e54c3daf124c5"
+    },
+    {
+      "path": "experiments/ane_engineering/palettize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e991171d8c86013174df4a714af555a8c4caaa20",
+      "size": 3476,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/e991171d8c86013174df4a714af555a8c4caaa20"
+    },
+    {
+      "path": "experiments/ane_engineering/probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "004d671a3075c74910b18ca0f0470644e278687c",
+      "size": 6914,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/004d671a3075c74910b18ca0f0470644e278687c"
+    },
+    {
+      "path": "experiments/ane_engineering/runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2076984d5341f968af08c74311f49ac5583588ad",
+      "size": 129,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/2076984d5341f968af08c74311f49ac5583588ad"
+    },
+    {
+      "path": "experiments/ane_engineering/validate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71ecc6999463945f727a59bf437f29aa5d637fec",
+      "size": 6681,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/71ecc6999463945f727a59bf437f29aa5d637fec"
+    },
+    {
+      "path": "experiments/ane_engineering/validation1024.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58ad18c6d5850b82f346d1c0623676bbc6faebcf",
+      "size": 1633304,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/58ad18c6d5850b82f346d1c0623676bbc6faebcf"
+    },
+    {
+      "path": "experiments/ane_engineering/validation192.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bde98b4673ce9181c4ccfa622bd124da5a0acb7c",
+      "size": 1634333,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/bde98b4673ce9181c4ccfa622bd124da5a0acb7c"
+    },
+    {
+      "path": "experiments/ane_engineering/validation96-w4km.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a8dac66bca53b81792d2dc3698c601019e2672b",
+      "size": 1638105,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/1a8dac66bca53b81792d2dc3698c601019e2672b"
+    },
+    {
+      "path": "experiments/ane_engineering/validation96-w6km.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dbb7bcb2e01dd63763b1065fe877681fafe1169",
+      "size": 1638493,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/2dbb7bcb2e01dd63763b1065fe877681fafe1169"
+    },
+    {
+      "path": "experiments/ane_engineering/validation96-w8.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c99b59550b32db75387aa08a7266e93874594a2",
+      "size": 1637102,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/9c99b59550b32db75387aa08a7266e93874594a2"
+    },
+    {
+      "path": "experiments/ane_engineering/validation96-w8g4.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b56abfdbdac5d4b25c08d5f164e77d521f4fe3c8",
+      "size": 1637935,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/b56abfdbdac5d4b25c08d5f164e77d521f4fe3c8"
+    },
+    {
+      "path": "experiments/ane_engineering/validation96-w8km.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d63b89704a5c3612aedc5daf9f6bcc182366c7db",
+      "size": 1638007,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/d63b89704a5c3612aedc5daf9f6bcc182366c7db"
+    },
+    {
+      "path": "experiments/ane_engineering/validation96.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0501987427ffecf6318519202676d69aa60863f2",
+      "size": 5616,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/0501987427ffecf6318519202676d69aa60863f2"
+    },
+    {
+      "path": "laya_coreml",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27835e480990bfa9fb9138f7f9137b4d80d894f3",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/27835e480990bfa9fb9138f7f9137b4d80d894f3"
+    },
+    {
+      "path": "laya_coreml/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a37bd94daae732d3e7f79091da1c949617a6ec85",
+      "size": 163,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/a37bd94daae732d3e7f79091da1c949617a6ec85"
+    },
+    {
+      "path": "laya_coreml/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e28416e104515e90fca4b69cc60d0c61fd15d61",
+      "size": 30,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/4e28416e104515e90fca4b69cc60d0c61fd15d61"
+    },
+    {
+      "path": "laya_coreml/agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abde3b7e3f12b9ee834bf606d24649f58c93efc1",
+      "size": 3291,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/abde3b7e3f12b9ee834bf606d24649f58c93efc1"
+    },
+    {
+      "path": "laya_coreml/ane.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3d03c2459e221cee34607e627608817042e9699",
+      "size": 8404,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/a3d03c2459e221cee34607e627608817042e9699"
+    },
+    {
+      "path": "laya_coreml/artifacts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6adb3180a4ca9f7f049eb2403c3355facde1148",
+      "size": 3483,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/a6adb3180a4ca9f7f049eb2403c3355facde1148"
+    },
+    {
+      "path": "laya_coreml/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "618a8ba22c14c37b33f5f71be9f4bba6c5bbc7df",
+      "size": 2662,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/618a8ba22c14c37b33f5f71be9f4bba6c5bbc7df"
+    },
+    {
+      "path": "laya_coreml/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f671dfb8021c0d5ef838c91e9efff3f3fccf99a",
+      "size": 6545,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/0f671dfb8021c0d5ef838c91e9efff3f3fccf99a"
+    },
+    {
+      "path": "laya_coreml/convert.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f15e8644809f6b079304c15eb01eba625ba7932b",
+      "size": 7030,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/f15e8644809f6b079304c15eb01eba625ba7932b"
+    },
+    {
+      "path": "laya_coreml/hub.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c11c0bbf7c5abb73bb5dca0024f3dcfc6d0c6bc0",
+      "size": 972,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/c11c0bbf7c5abb73bb5dca0024f3dcfc6d0c6bc0"
+    },
+    {
+      "path": "laya_coreml/inputs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "495af67e15c06a388159832cd2f1aa8231cdae5b",
+      "size": 1743,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/495af67e15c06a388159832cd2f1aa8231cdae5b"
+    },
+    {
+      "path": "laya_coreml/prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "832ca6bdda96df7d2b1b4a7cd63dc456b8b67118",
+      "size": 2662,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/832ca6bdda96df7d2b1b4a7cd63dc456b8b67118"
+    },
+    {
+      "path": "laya_coreml/result.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8f4852dab9459995acd13c8ac81dad4ddb9543f",
+      "size": 2845,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/e8f4852dab9459995acd13c8ac81dad4ddb9543f"
+    },
+    {
+      "path": "laya_coreml/snake",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c36aacd29723f77ade72aad4c76038932b1920c",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/6c36aacd29723f77ade72aad4c76038932b1920c"
+    },
+    {
+      "path": "laya_coreml/snake/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a227134494f6f122c19665b0a8d8c9e40c43d75",
+      "size": 138,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/3a227134494f6f122c19665b0a8d8c9e40c43d75"
+    },
+    {
+      "path": "laya_coreml/snake/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af3c2fd8cd08a11d7df4fbc7c9ba7884c755df5a",
+      "size": 120,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/af3c2fd8cd08a11d7df4fbc7c9ba7884c755df5a"
+    },
+    {
+      "path": "laya_coreml/snake/benchmark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8ed27fa83bc06e05e95122fc2f3e2e160444507",
+      "size": 12100,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/d8ed27fa83bc06e05e95122fc2f3e2e160444507"
+    },
+    {
+      "path": "laya_coreml/snake/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e784f198a8d349f45840a9b11d8ec5765eb700b0",
+      "size": 11598,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/e784f198a8d349f45840a9b11d8ec5765eb700b0"
+    },
+    {
+      "path": "laya_coreml/snake/game.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37ea9a5ce44d6e8947f6a4aabad244254e09d566",
+      "size": 6053,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/37ea9a5ce44d6e8947f6a4aabad244254e09d566"
+    },
+    {
+      "path": "laya_coreml/snake/policy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a385169b3d9a7caa7797728656238cd9c8241091",
+      "size": 8376,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/a385169b3d9a7caa7797728656238cd9c8241091"
+    },
+    {
+      "path": "laya_coreml/snake/replay.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f84292da97a28931bd7770bacc77d3606c105cac",
+      "size": 9794,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/f84292da97a28931bd7770bacc77d3606c105cac"
+    },
+    {
+      "path": "laya_coreml/snake/ui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fded6611cdbcb99fc42778464818a76561ea2485",
+      "size": 7302,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/fded6611cdbcb99fc42778464818a76561ea2485"
+    },
+    {
+      "path": "laya_coreml/tokenizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a08e56bbbcd5d42fbf2e03e9f2cfe846ad0ff3e",
+      "size": 1097,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/9a08e56bbbcd5d42fbf2e03e9f2cfe846ad0ff3e"
+    },
+    {
+      "path": "laya_coreml/torch_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c71b5a23b057a917288031806537806d42902315",
+      "size": 9659,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/c71b5a23b057a917288031806537806d42902315"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bab4f60038a2dd9c196ad837f677aea255c43be",
+      "size": 1864,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/1bab4f60038a2dd9c196ad837f677aea255c43be"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bceb4372d4f61a42568ea134d51fa910a8935266",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/bceb4372d4f61a42568ea134d51fa910a8935266"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85bcf3441bbc6804067e289165e3462d246d2f48",
+      "size": 81,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/85bcf3441bbc6804067e289165e3462d246d2f48"
+    },
+    {
+      "path": "scripts/prepare_hub.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20fa2cbcc9fab17d99099753dde8207460608459",
+      "size": 11245,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/20fa2cbcc9fab17d99099753dde8207460608459"
+    },
+    {
+      "path": "scripts/record_terminal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "960b535d920fdf9aaaa2f605cb414230aacd4d5f",
+      "size": 1842,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/960b535d920fdf9aaaa2f605cb414230aacd4d5f"
+    },
+    {
+      "path": "scripts/wheel_smoke.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e254ccff428bc02fcd03ec9b9ba167421f91a457",
+      "size": 3521,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/e254ccff428bc02fcd03ec9b9ba167421f91a457"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0069a9121a94d61d2538205fa82562d1cc9bd7c9",
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/trees/0069a9121a94d61d2538205fa82562d1cc9bd7c9"
+    },
+    {
+      "path": "tests/test_ane_layout.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "124e63fdccac184a4a33eff8a56e84c6468610ee",
+      "size": 7645,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/124e63fdccac184a4a33eff8a56e84c6468610ee"
+    },
+    {
+      "path": "tests/test_bundle_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18106924af2b176544190951fe181c95be902bf0",
+      "size": 1785,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/18106924af2b176544190951fe181c95be902bf0"
+    },
+    {
+      "path": "tests/test_calibration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11d6460b6dced50d02857cb453df11767105db09",
+      "size": 2489,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/11d6460b6dced50d02857cb453df11767105db09"
+    },
+    {
+      "path": "tests/test_energy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78e739f7a0bebeab7d375595728158554e790d71",
+      "size": 3369,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/78e739f7a0bebeab7d375595728158554e790d71"
+    },
+    {
+      "path": "tests/test_inputs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f39f6e3b2d5373bea2a2f16d8ad6a5ac8829aaf",
+      "size": 3149,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/1f39f6e3b2d5373bea2a2f16d8ad6a5ac8829aaf"
+    },
+    {
+      "path": "tests/test_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcb84d44fe8762ed198cde700bf3c1a05d35cb01",
+      "size": 4235,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/fcb84d44fe8762ed198cde700bf3c1a05d35cb01"
+    },
+    {
+      "path": "tests/test_snake.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19c4b9230e1b8e3bfd79139471f9acbe6134b606",
+      "size": 6890,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/19c4b9230e1b8e3bfd79139471f9acbe6134b606"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1ca3a76128bde19cc42ddcfcc3dd577236e1397",
+      "size": 199032,
+      "url": "https://api.github.com/repos/mizorewww/laya-coreml/git/blobs/a1ca3a76128bde19cc42ddcfcc3dd577236e1397"
+    }
+  ],
+  "truncated": false
+}

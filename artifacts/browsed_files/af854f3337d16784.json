@@ -1,0 +1,1177 @@
+{
+  "sha": "0a859518634112655cb97c745dbf04f5191aaf13",
+  "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/0a859518634112655cb97c745dbf04f5191aaf13",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f02d224aa7424fc662442e9f67b0b4e46167614a",
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/f02d224aa7424fc662442e9f67b0b4e46167614a"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "47cc3e2a4b3ccb88fcd50c261642e59a8860e76e",
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/47cc3e2a4b3ccb88fcd50c261642e59a8860e76e"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e545141a1e580638b35d0eee3e172f000bf1e8c",
+      "size": 693,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/5e545141a1e580638b35d0eee3e172f000bf1e8c"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ae1d72bd82d4d80c77fc6b7f706d44d2ffb7bea",
+      "size": 146,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/2ae1d72bd82d4d80c77fc6b7f706d44d2ffb7bea"
+    },
+    {
+      "path": "BENCHMARKS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d44159900cb8534df1a779818b822a1a8d9ffe2d",
+      "size": 7571,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/d44159900cb8534df1a779818b822a1a8d9ffe2d"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9a10c0d8e868ebf8da0b3dc95bb0be634c34bfe",
+      "size": 10173,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/d9a10c0d8e868ebf8da0b3dc95bb0be634c34bfe"
+    },
+    {
+      "path": "NOTICE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe913b327d1971bf595d91ec0ba0f40b21633bb0",
+      "size": 698,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/fe913b327d1971bf595d91ec0ba0f40b21633bb0"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2364a382cda161b92e4afc0a719bcb5619d1e6a8",
+      "size": 17182,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/2364a382cda161b92e4afc0a719bcb5619d1e6a8"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04c755e5e84386b7115f95d82661d68efb8673c2",
+      "size": 9275,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/04c755e5e84386b7115f95d82661d68efb8673c2"
+    },
+    {
+      "path": "benchmarks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "724a46b3cfedaef39a65be33488dcca59314c89d",
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/724a46b3cfedaef39a65be33488dcca59314c89d"
+    },
+    {
+      "path": "benchmarks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3b217b64b5edebcbe6dbeff7071a714a9a21bb3",
+      "size": 67,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/b3b217b64b5edebcbe6dbeff7071a714a9a21bb3"
+    },
+    {
+      "path": "benchmarks/accuracy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "313d614e73ec680c98114225aa82cb996c070f96",
+      "size": 4106,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/313d614e73ec680c98114225aa82cb996c070f96"
+    },
+    {
+      "path": "benchmarks/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c41d76a72011cb734a955aa80175c8cded02712e",
+      "size": 6384,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/c41d76a72011cb734a955aa80175c8cded02712e"
+    },
+    {
+      "path": "benchmarks/download.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58097d838d8f6dc40f4240579b7fe1b35c16aa0b",
+      "size": 853,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/58097d838d8f6dc40f4240579b7fe1b35c16aa0b"
+    },
+    {
+      "path": "benchmarks/latency.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48cb42c52e0ad03151cbdeec749d9332baf4c6f4",
+      "size": 89573,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/48cb42c52e0ad03151cbdeec749d9332baf4c6f4"
+    },
+    {
+      "path": "benchmarks/latency.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39e1eb01d140c98731c7b9bee196c7ea34bc0152",
+      "size": 81755,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/39e1eb01d140c98731c7b9bee196c7ea34bc0152"
+    },
+    {
+      "path": "benchmarks/report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c814376479d75dc034a8e1559dc96fb31ae72cdd",
+      "size": 12190,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/c814376479d75dc034a8e1559dc96fb31ae72cdd"
+    },
+    {
+      "path": "benchmarks/results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4bd8b3439ddb0c8d2b72eae701ff407a14e3e4f5",
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/4bd8b3439ddb0c8d2b72eae701ff407a14e3e4f5"
+    },
+    {
+      "path": "benchmarks/results/accuracy.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b8fc31f532cf6a37e8cb1858f89ae538c66f9f4",
+      "size": 26790,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/9b8fc31f532cf6a37e8cb1858f89ae538c66f9f4"
+    },
+    {
+      "path": "benchmarks/results/export-smoke.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c19bfffa705c64ebf0e9a77baef798108a2d611d",
+      "size": 3906,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/c19bfffa705c64ebf0e9a77baef798108a2d611d"
+    },
+    {
+      "path": "benchmarks/results/hub-publication.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a366469e43e23d5d003cb3812678356f5ee7023a",
+      "size": 2469,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/a366469e43e23d5d003cb3812678356f5ee7023a"
+    },
+    {
+      "path": "benchmarks/results/laya-mlx-float16.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81eadee2212f045b21ddb77d7334a23df751c212",
+      "size": 19785,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/81eadee2212f045b21ddb77d7334a23df751c212"
+    },
+    {
+      "path": "benchmarks/results/laya-mlx-float32.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e15236fe78cd23b3974e2114d299d278662b7c78",
+      "size": 19788,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/e15236fe78cd23b3974e2114d299d278662b7c78"
+    },
+    {
+      "path": "benchmarks/results/laya-multilingual-mlx-float16.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf6842e39c16b8b300ca90f3a8455f78f937b4ac",
+      "size": 19672,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/bf6842e39c16b8b300ca90f3a8455f78f937b4ac"
+    },
+    {
+      "path": "benchmarks/results/laya-multilingual-mlx-float32.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12ab5824fd5dd533e9941afb71de510d2ce191d2",
+      "size": 19750,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/12ab5824fd5dd533e9941afb71de510d2ce191d2"
+    },
+    {
+      "path": "benchmarks/results/laya-multilingual-torch-mps-float32.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "038eaf4317964ca9b64ce8e8d6e22d4cf140f8a4",
+      "size": 20108,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/038eaf4317964ca9b64ce8e8d6e22d4cf140f8a4"
+    },
+    {
+      "path": "benchmarks/results/laya-torch-mps-float32.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de32825415853fc1e256b9f6edddc20591cc1cb2",
+      "size": 20121,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/de32825415853fc1e256b9f6edddc20591cc1cb2"
+    },
+    {
+      "path": "benchmarks/results/laya-typed-decisions-mlx-float16.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b6fba399ad8677ddfa36cd93e2a84b3f254a0ab",
+      "size": 19788,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/2b6fba399ad8677ddfa36cd93e2a84b3f254a0ab"
+    },
+    {
+      "path": "benchmarks/results/laya-typed-decisions-mlx-float32.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8129ac040b84e7ba3089701db3f96cc7ae55167",
+      "size": 19980,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/a8129ac040b84e7ba3089701db3f96cc7ae55167"
+    },
+    {
+      "path": "benchmarks/results/laya-typed-decisions-torch-mps-float32.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dfde527a8b3a4a23552804942b33e471eed16f1",
+      "size": 20355,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/1dfde527a8b3a4a23552804942b33e471eed16f1"
+    },
+    {
+      "path": "benchmarks/results/platform-support.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a5df56e2abb593a4747a08d5328427e1b9d728e",
+      "size": 4701,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/9a5df56e2abb593a4747a08d5328427e1b9d728e"
+    },
+    {
+      "path": "benchmarks/results/snake-compact-no-color.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f79434f354e9ca56420401567ef44d77b4afaf74",
+      "size": 4779494,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/f79434f354e9ca56420401567ef44d77b4afaf74"
+    },
+    {
+      "path": "benchmarks/results/snake-detailed-prompt.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c77601bd51c4e166e54a13089d331d9689419f40",
+      "size": 1622720,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/c77601bd51c4e166e54a13089d331d9689419f40"
+    },
+    {
+      "path": "benchmarks/results/snake-fast.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fc5b6136eaf636a0a7f8f1eadd2dba9d7bd23f1",
+      "size": 1194167,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/7fc5b6136eaf636a0a7f8f1eadd2dba9d7bd23f1"
+    },
+    {
+      "path": "benchmarks/results/snake-integration.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "190de46413f693e0f3700d39509bebbe408dc44e",
+      "size": 1503,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/190de46413f693e0f3700d39509bebbe408dc44e"
+    },
+    {
+      "path": "benchmarks/results/snake-model-comparison.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15aae686cbd9b30f24820c1a527ee421e4a04cab",
+      "size": 4553819,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/15aae686cbd9b30f24820c1a527ee421e4a04cab"
+    },
+    {
+      "path": "benchmarks/results/snake-optimized-paired.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eff63ac2a655b7ad3fa74b45b2bf55cc94930d51",
+      "size": 1852016,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/eff63ac2a655b7ad3fa74b45b2bf55cc94930d51"
+    },
+    {
+      "path": "benchmarks/results/snake-prompt-comparison.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d156a6a44b153dba9cacae1209c47cf35fbea2e",
+      "size": 22423,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/3d156a6a44b153dba9cacae1209c47cf35fbea2e"
+    },
+    {
+      "path": "benchmarks/results/snake-runtime-96-pilot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fde02318f194e5ac959a296b81f7ce34db2ff337",
+      "size": 65445,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/fde02318f194e5ac959a296b81f7ce34db2ff337"
+    },
+    {
+      "path": "benchmarks/results/snake-runtime-english.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00420141e39a5c104d33dcaef923cd6d29b7d54a",
+      "size": 88715,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/00420141e39a5c104d33dcaef923cd6d29b7d54a"
+    },
+    {
+      "path": "benchmarks/results/snake-runtime-multilingual.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2ebe03dc885bcb0ba9655cd989873a0493f76bd",
+      "size": 91411,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/c2ebe03dc885bcb0ba9655cd989873a0493f76bd"
+    },
+    {
+      "path": "benchmarks/results/snake-showcase.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d0087c533d9962d185d603a271ebdbbf40f0c9d",
+      "size": 1011345,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/8d0087c533d9962d185d603a271ebdbbf40f0c9d"
+    },
+    {
+      "path": "benchmarks/results/snake.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa2d4d0bfedecbb77d8eb83e08f1d823ee99996a",
+      "size": 3144433,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/fa2d4d0bfedecbb77d8eb83e08f1d823ee99996a"
+    },
+    {
+      "path": "benchmarks/results/validation-laya.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45b7361d71db15ae962e42340947d2c1447f9948",
+      "size": 18797,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/45b7361d71db15ae962e42340947d2c1447f9948"
+    },
+    {
+      "path": "benchmarks/results/validation-multilingual.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e34d211c9d1d805b98fd7c9222679b1d20e81356",
+      "size": 18931,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/e34d211c9d1d805b98fd7c9222679b1d20e81356"
+    },
+    {
+      "path": "benchmarks/results/validation-optimized.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7621f058cb0fd7e48df30bd3113bce3d865e3824",
+      "size": 55571,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/7621f058cb0fd7e48df30bd3113bce3d865e3824"
+    },
+    {
+      "path": "benchmarks/results/validation-typed-decisions.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a2f421f03273a6492ee6a6ac4bf446ffe1354fc",
+      "size": 18884,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/9a2f421f03273a6492ee6a6ac4bf446ffe1354fc"
+    },
+    {
+      "path": "benchmarks/results/validation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3db05f5fd03db323870fd797037bb1265d03150e",
+      "size": 55574,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/3db05f5fd03db323870fd797037bb1265d03150e"
+    },
+    {
+      "path": "benchmarks/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d66505db48ef4a31481634a60adcd3d56ad797eb",
+      "size": 1676,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/d66505db48ef4a31481634a60adcd3d56ad797eb"
+    },
+    {
+      "path": "benchmarks/snake_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ce0aa010311a100660d9366123f969eac8f44af",
+      "size": 3203,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/0ce0aa010311a100660d9366123f969eac8f44af"
+    },
+    {
+      "path": "benchmarks/snake_optimized.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29a2addb86911c9b003a3f6e888e37c080c7bd58",
+      "size": 3020,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/29a2addb86911c9b003a3f6e888e37c080c7bd58"
+    },
+    {
+      "path": "benchmarks/snake_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5332ac772a0444288d2f6cdfe989400a307434f",
+      "size": 2655,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/c5332ac772a0444288d2f6cdfe989400a307434f"
+    },
+    {
+      "path": "benchmarks/validate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77f3d45bd99d5710415eccb78dcf15fca22ae843",
+      "size": 7696,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/77f3d45bd99d5710415eccb78dcf15fca22ae843"
+    },
+    {
+      "path": "benchmarks/worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c0ffbe382c5e0a5f61209d93592451ac2185e6a",
+      "size": 6694,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/0c0ffbe382c5e0a5f61209d93592451ac2185e6a"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "42175571e263678c1000259564088df3e22d75e8",
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/42175571e263678c1000259564088df3e22d75e8"
+    },
+    {
+      "path": "docs/ENGINEERING_10X_RESEARCH.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "941bc0ddc1f4041a30b68eff922695caff16f51f",
+      "size": 20315,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/941bc0ddc1f4041a30b68eff922695caff16f51f"
+    },
+    {
+      "path": "docs/LAUNCH.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79eca0fde986fed20b2f8959cda0f665b7f3eaee",
+      "size": 3137,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/79eca0fde986fed20b2f8959cda0f665b7f3eaee"
+    },
+    {
+      "path": "docs/MATH_10X_RESEARCH.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "776dbd8f5fbf78e3fb14f81290686038008e7f4f",
+      "size": 27048,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/776dbd8f5fbf78e3fb14f81290686038008e7f4f"
+    },
+    {
+      "path": "docs/PERFORMANCE_RESEARCH.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ae39da90487168500ef5432da2303ddd2f31cab",
+      "size": 29226,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/4ae39da90487168500ef5432da2303ddd2f31cab"
+    },
+    {
+      "path": "docs/SNAKE_BENCHMARKS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a69abc83aefca259ecacfe9d087471793a20826",
+      "size": 8109,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/4a69abc83aefca259ecacfe9d087471793a20826"
+    },
+    {
+      "path": "docs/SNAKE_DEMO.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "749d29878b9dad3572e97784523039a99ff842b0",
+      "size": 8446,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/749d29878b9dad3572e97784523039a99ff842b0"
+    },
+    {
+      "path": "docs/SNAKE_OPTIMIZATION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de1ec42d276eab6b25b41b90b3e2190fbe4f7a6d",
+      "size": 8429,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/de1ec42d276eab6b25b41b90b3e2190fbe4f7a6d"
+    },
+    {
+      "path": "docs/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db4f7fd833b18b279b03c2ef6aad81a5d759cd9f",
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/db4f7fd833b18b279b03c2ef6aad81a5d759cd9f"
+    },
+    {
+      "path": "docs/assets/snake-demo.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92089de99e24aea7131073b7eaa670ad18d52388",
+      "size": 1788018,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/92089de99e24aea7131073b7eaa670ad18d52388"
+    },
+    {
+      "path": "docs/assets/snake-demo.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88feb65d32898250fd2c5edecec0f74194f33bc7",
+      "size": 1295,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/88feb65d32898250fd2c5edecec0f74194f33bc7"
+    },
+    {
+      "path": "docs/assets/snake-demo.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "120d6112a680de64e9eac185beae399579f0687a",
+      "size": 998687,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/120d6112a680de64e9eac185beae399579f0687a"
+    },
+    {
+      "path": "docs/assets/snake-fast.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69e026f2bb820da732ddaded4791438471b616ae",
+      "size": 1357,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/69e026f2bb820da732ddaded4791438471b616ae"
+    },
+    {
+      "path": "docs/assets/snake-fast.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ce69768895da0206beeaa8e79b403a8d58211dc",
+      "size": 950414,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/8ce69768895da0206beeaa8e79b403a8d58211dc"
+    },
+    {
+      "path": "docs/assets/snake-preview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ede3723b762876e669cd3af8fd60b03e191a72b",
+      "size": 95401,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/5ede3723b762876e669cd3af8fd60b03e191a72b"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96987a9f8cb0f91fbdd7c63813fca4f48a2d4920",
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/96987a9f8cb0f91fbdd7c63813fca4f48a2d4920"
+    },
+    {
+      "path": "examples/questions.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3c525691b999ac6e5c1462b6ec563de9324c033",
+      "size": 580,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/e3c525691b999ac6e5c1462b6ec563de9324c033"
+    },
+    {
+      "path": "examples/quickstart.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a45fe76ccbee1432431a208dfd5303cf3aa79c4a",
+      "size": 365,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/a45fe76ccbee1432431a208dfd5303cf3aa79c4a"
+    },
+    {
+      "path": "examples/state.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63c2d8f607f00fd25338bf4162ee31b8752c8fec",
+      "size": 190,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/63c2d8f607f00fd25338bf4162ee31b8752c8fec"
+    },
+    {
+      "path": "experiments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "029006df9da6cfaed826cd76950cfedde3b52d10",
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/029006df9da6cfaed826cd76950cfedde3b52d10"
+    },
+    {
+      "path": "experiments/engineering",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f79e0f0e8902e41628c592af946271d140a6eb2",
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/9f79e0f0e8902e41628c592af946271d140a6eb2"
+    },
+    {
+      "path": "experiments/engineering/analyze.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef74669a4c6b06e5f6a9062fb41ea9d44971224b",
+      "size": 1981,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/ef74669a4c6b06e5f6a9062fb41ea9d44971224b"
+    },
+    {
+      "path": "experiments/engineering/kernels.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e631446c222a74b9787d03e8a2c3833f8dab7d3a",
+      "size": 2063,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/e631446c222a74b9787d03e8a2c3833f8dab7d3a"
+    },
+    {
+      "path": "experiments/engineering/laya-blocks-pilot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a7e07b1a3cd80d5545326688885aa0c82631c3e",
+      "size": 9036,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/3a7e07b1a3cd80d5545326688885aa0c82631c3e"
+    },
+    {
+      "path": "experiments/engineering/laya-compiled-pilot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f9d8aef1c37ebb3ed2e4b15f06973f5cd0060d2",
+      "size": 9016,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/7f9d8aef1c37ebb3ed2e4b15f06973f5cd0060d2"
+    },
+    {
+      "path": "experiments/engineering/laya-eager-pilot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aba9370d7c63e876478518c319768482bb94c99",
+      "size": 5645,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/7aba9370d7c63e876478518c319768482bb94c99"
+    },
+    {
+      "path": "experiments/engineering/laya-metal-paired.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b97593f39faa909e1de1f1f940cb884a0ca19cdc",
+      "size": 52645,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/b97593f39faa909e1de1f1f940cb884a0ca19cdc"
+    },
+    {
+      "path": "experiments/engineering/laya-metal-quality.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86ee2c59b70945bb2214c4269fb0f7124522b2d6",
+      "size": 5546,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/86ee2c59b70945bb2214c4269fb0f7124522b2d6"
+    },
+    {
+      "path": "experiments/engineering/laya-multilingual-compiled-pilot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7f03ad1ed2bfd94f5ba600e3664588005584275",
+      "size": 11284,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/b7f03ad1ed2bfd94f5ba600e3664588005584275"
+    },
+    {
+      "path": "experiments/engineering/laya-multilingual-eager-pilot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d314b71a2bd570f1ce4066b94fdf921b3fc07be",
+      "size": 11295,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/4d314b71a2bd570f1ce4066b94fdf921b3fc07be"
+    },
+    {
+      "path": "experiments/engineering/laya-multilingual-metal-paired.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76aa780ca5136e9ee172aa69ebe9b0b8a8ce7ce7",
+      "size": 43077,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/76aa780ca5136e9ee172aa69ebe9b0b8a8ce7ce7"
+    },
+    {
+      "path": "experiments/engineering/laya-multilingual-metal-quality.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfcab357522fa19d30729b6d12f3fa977082a224",
+      "size": 5534,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/bfcab357522fa19d30729b6d12f3fa977082a224"
+    },
+    {
+      "path": "experiments/engineering/laya-multilingual-paired.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71a3ab00041a92c0e343f70855c2c6ec97e13fd8",
+      "size": 61151,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/71a3ab00041a92c0e343f70855c2c6ec97e13fd8"
+    },
+    {
+      "path": "experiments/engineering/laya-multilingual-q4-pilot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0f983f9fd780005d9a2c47b4b14099a8e221568",
+      "size": 11774,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/d0f983f9fd780005d9a2c47b4b14099a8e221568"
+    },
+    {
+      "path": "experiments/engineering/laya-multilingual-q8-pilot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f565a56571883a15e2a4325043f2aa8923ff3ac",
+      "size": 11758,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/0f565a56571883a15e2a4325043f2aa8923ff3ac"
+    },
+    {
+      "path": "experiments/engineering/laya-multilingual-selected-compiled-pilot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae4e70768293307e4afe793e79cd9966958ca21b",
+      "size": 11338,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/ae4e70768293307e4afe793e79cd9966958ca21b"
+    },
+    {
+      "path": "experiments/engineering/laya-multilingual-selected-full-quality.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60fd450f013d97d1047f58e8de3104910bf74c37",
+      "size": 5567,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/60fd450f013d97d1047f58e8de3104910bf74c37"
+    },
+    {
+      "path": "experiments/engineering/laya-paired.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b8390114905bfb45f0853dfdf6420b7ba988c5b",
+      "size": 104616,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/0b8390114905bfb45f0853dfdf6420b7ba988c5b"
+    },
+    {
+      "path": "experiments/engineering/laya-q4-pilot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "279e73fe3d11d53b5dcd49c800bc1fac162633d6",
+      "size": 9518,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/279e73fe3d11d53b5dcd49c800bc1fac162633d6"
+    },
+    {
+      "path": "experiments/engineering/laya-q8-pilot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70e0fc98950d1ea6d57cb6e07744b8fde1967657",
+      "size": 9527,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/70e0fc98950d1ea6d57cb6e07744b8fde1967657"
+    },
+    {
+      "path": "experiments/engineering/laya-selected-compiled-pilot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f54dcf70288f6bd5d2ea06cf29ba20ec6a00c877",
+      "size": 9072,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/f54dcf70288f6bd5d2ea06cf29ba20ec6a00c877"
+    },
+    {
+      "path": "experiments/engineering/laya-selected-full-quality.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf891d1205bec6710659b30f3df6de05855a7a13",
+      "size": 5605,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/cf891d1205bec6710659b30f3df6de05855a7a13"
+    },
+    {
+      "path": "experiments/engineering/microbench.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8462b94c7c3ad582d2a1c278e0b22c35442070f0",
+      "size": 44292,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/8462b94c7c3ad582d2a1c278e0b22c35442070f0"
+    },
+    {
+      "path": "experiments/engineering/microbench.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f38e9327421693284c9606599f681e26df248a6f",
+      "size": 3191,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/f38e9327421693284c9606599f681e26df248a6f"
+    },
+    {
+      "path": "experiments/engineering/paired.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f43982fba0f7d7f17549b9fdb0b120713f0b5786",
+      "size": 5734,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/f43982fba0f7d7f17549b9fdb0b120713f0b5786"
+    },
+    {
+      "path": "experiments/engineering/paired_analysis.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3208bd890fc77ef71fc74a71d0acfcbfd79c2546",
+      "size": 40200,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/3208bd890fc77ef71fc74a71d0acfcbfd79c2546"
+    },
+    {
+      "path": "experiments/engineering/run_variants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5628350eb69e13de412b41aab876b3155a45b79",
+      "size": 14055,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/b5628350eb69e13de412b41aab876b3155a45b79"
+    },
+    {
+      "path": "experiments/engineering/vendor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55f1690294bd7e183c3152763675961efb51d711",
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/55f1690294bd7e183c3152763675961efb51d711"
+    },
+    {
+      "path": "experiments/engineering/vendor/MLX_LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98ff47b9ef9d4ac9f1a4bde3db13dd27456c5ea1",
+      "size": 1066,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/98ff47b9ef9d4ac9f1a4bde3db13dd27456c5ea1"
+    },
+    {
+      "path": "experiments/engineering/vendor/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acc1d592ac282f321018f3bc47fb174c0d2f6545",
+      "size": 1013,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/acc1d592ac282f321018f3bc47fb174c0d2f6545"
+    },
+    {
+      "path": "experiments/engineering/vendor/mlx_erf.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d367eef9c8f9c3db9d1549ec4511d1569938236e",
+      "size": 2723,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/d367eef9c8f9c3db9d1549ec4511d1569938236e"
+    },
+    {
+      "path": "experiments/engineering/vendor/mlx_expm1f.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68224e1796e9f5a485914d94507d07b81d52b797",
+      "size": 3278,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/68224e1796e9f5a485914d94507d07b81d52b797"
+    },
+    {
+      "path": "experiments/math_costs.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c240eb94e3fd474ccd9d8c1ea24f50c40b9f75b",
+      "size": 19490,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/8c240eb94e3fd474ccd9d8c1ea24f50c40b9f75b"
+    },
+    {
+      "path": "experiments/math_costs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5a8a243bedf4dff18bb40705d3ad52e59e2fe05",
+      "size": 6457,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/a5a8a243bedf4dff18bb40705d3ad52e59e2fe05"
+    },
+    {
+      "path": "experiments/math_spectrum.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e71245510a1b35edd1b271c6e1167a31597b44a9",
+      "size": 8736,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/e71245510a1b35edd1b271c6e1167a31597b44a9"
+    },
+    {
+      "path": "experiments/math_spectrum.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8731d2c1f28f28bee37bfe5255d1a5e4d1c175db",
+      "size": 3820,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/8731d2c1f28f28bee37bfe5255d1a5e4d1c175db"
+    },
+    {
+      "path": "experiments/snake_runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85e541293ba9b420aea1e2eaf739fcc754b164b3",
+      "size": 7857,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/85e541293ba9b420aea1e2eaf739fcc754b164b3"
+    },
+    {
+      "path": "laya_mlx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83e300ac30727e179b028a6fa2d7832fdb79bfd3",
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/83e300ac30727e179b028a6fa2d7832fdb79bfd3"
+    },
+    {
+      "path": "laya_mlx/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c317e628aa04e79677c232ae1c342125a6bdce8e",
+      "size": 945,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/c317e628aa04e79677c232ae1c342125a6bdce8e"
+    },
+    {
+      "path": "laya_mlx/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e28416e104515e90fca4b69cc60d0c61fd15d61",
+      "size": 30,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/4e28416e104515e90fca4b69cc60d0c61fd15d61"
+    },
+    {
+      "path": "laya_mlx/agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bd1c1d4305508c200e30cf3f0c5f94ddf3319be",
+      "size": 13387,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/9bd1c1d4305508c200e30cf3f0c5f94ddf3319be"
+    },
+    {
+      "path": "laya_mlx/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3087e6e4c453b401bd2102bb592258b36fddbed6",
+      "size": 2191,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/3087e6e4c453b401bd2102bb592258b36fddbed6"
+    },
+    {
+      "path": "laya_mlx/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95fe4b2064646aff8717fd327e5ac338d54c652a",
+      "size": 4968,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/95fe4b2064646aff8717fd327e5ac338d54c652a"
+    },
+    {
+      "path": "laya_mlx/convert.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4a705f37c3353a80c604077e8ae031b03302fe1",
+      "size": 1706,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/a4a705f37c3353a80c604077e8ae031b03302fe1"
+    },
+    {
+      "path": "laya_mlx/email.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04ac6ab6a33f61914935106888628bc31f6e44fd",
+      "size": 4459,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/04ac6ab6a33f61914935106888628bc31f6e44fd"
+    },
+    {
+      "path": "laya_mlx/lang.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc9d8b4fe474a9cf552c4b5e4d712aa75d0b89d5",
+      "size": 13465,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/dc9d8b4fe474a9cf552c4b5e4d712aa75d0b89d5"
+    },
+    {
+      "path": "laya_mlx/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "741ca1a0d45a392614c57493db187e999736b241",
+      "size": 10381,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/741ca1a0d45a392614c57493db187e999736b241"
+    },
+    {
+      "path": "laya_mlx/prepared.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3c8def4b69deea3a04f4c4b9b3c2edc9e0c71e3",
+      "size": 2270,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/b3c8def4b69deea3a04f4c4b9b3c2edc9e0c71e3"
+    },
+    {
+      "path": "laya_mlx/presets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5428f402709cd793b71c74531971d075306f0cfb",
+      "size": 7336,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/5428f402709cd793b71c74531971d075306f0cfb"
+    },
+    {
+      "path": "laya_mlx/router.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecf63d6d4e060be3a9cbb57866e4b41537c17073",
+      "size": 15252,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/ecf63d6d4e060be3a9cbb57866e4b41537c17073"
+    },
+    {
+      "path": "laya_mlx/shortlist.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfe7b58c22b30189b07771099e9b06d5e38f8f71",
+      "size": 10484,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/bfe7b58c22b30189b07771099e9b06d5e38f8f71"
+    },
+    {
+      "path": "laya_mlx/snake",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "585d26b9217fa6dc73b323d145656cdcc9a484c8",
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/585d26b9217fa6dc73b323d145656cdcc9a484c8"
+    },
+    {
+      "path": "laya_mlx/snake/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be1eaaa3d1bd25f4c497fe275495604305068a55",
+      "size": 62,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/be1eaaa3d1bd25f4c497fe275495604305068a55"
+    },
+    {
+      "path": "laya_mlx/snake/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb53e2f31b2f703ad32ef64b8a41faa3e7d18e08",
+      "size": 48,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/eb53e2f31b2f703ad32ef64b8a41faa3e7d18e08"
+    },
+    {
+      "path": "laya_mlx/snake/benchmark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cc52a282db0d9c6af616c114d078f526b1bac53",
+      "size": 11823,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/3cc52a282db0d9c6af616c114d078f526b1bac53"
+    },
+    {
+      "path": "laya_mlx/snake/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9a1d6a37882c5ce6a445257039de87b53e8adf7",
+      "size": 11337,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/c9a1d6a37882c5ce6a445257039de87b53e8adf7"
+    },
+    {
+      "path": "laya_mlx/snake/game.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c3c3d5a1db1b53b5c936ff08bec5d36d91c942d",
+      "size": 5981,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/2c3c3d5a1db1b53b5c936ff08bec5d36d91c942d"
+    },
+    {
+      "path": "laya_mlx/snake/policy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f24e54d307e0e7e05b8bcea9d56bc90cb21c1af",
+      "size": 8429,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/1f24e54d307e0e7e05b8bcea9d56bc90cb21c1af"
+    },
+    {
+      "path": "laya_mlx/snake/replay.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0d03540b463b9c6268e3449a81b864cdd4193ad",
+      "size": 9715,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/d0d03540b463b9c6268e3449a81b864cdd4193ad"
+    },
+    {
+      "path": "laya_mlx/snake/ui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ff36c66661b9c2a30e679e7109eb3ba396651c8",
+      "size": 7209,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/2ff36c66661b9c2a30e679e7109eb3ba396651c8"
+    },
+    {
+      "path": "laya_mlx/tokenizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a08e56bbbcd5d42fbf2e03e9f2cfe846ad0ff3e",
+      "size": 1097,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/9a08e56bbbcd5d42fbf2e03e9f2cfe846ad0ff3e"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae74d0aab8fd4d7eae74de937306c852938eefcb",
+      "size": 1822,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/ae74d0aab8fd4d7eae74de937306c852938eefcb"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "daadf217925f566dc3222cef36483310a1eadec3",
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/daadf217925f566dc3222cef36483310a1eadec3"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ba47bba8177247d0c545c70a793573375f9b33a",
+      "size": 60,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/6ba47bba8177247d0c545c70a793573375f9b33a"
+    },
+    {
+      "path": "scripts/prepare_hub.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5779cf186626806bfd92e9e7a398228db55e26bf",
+      "size": 7680,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/5779cf186626806bfd92e9e7a398228db55e26bf"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f341c78eb650ce07be94745646b4686021126b85",
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/trees/f341c78eb650ce07be94745646b4686021126b85"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2750ce86447c1fb46db953424c6a2b97c88c8c55",
+      "size": 2199,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/2750ce86447c1fb46db953424c6a2b97c88c8c55"
+    },
+    {
+      "path": "tests/test_email.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25bf13d428c0b7da804215d3697cd9435275933f",
+      "size": 1960,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/25bf13d428c0b7da804215d3697cd9435275933f"
+    },
+    {
+      "path": "tests/test_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "620cf9be0b1a88994853ebab7f2397bc1aa57017",
+      "size": 5027,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/620cf9be0b1a88994853ebab7f2397bc1aa57017"
+    },
+    {
+      "path": "tests/test_router.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e5ab4c0400369102cac4f362495781b5c4becd5",
+      "size": 11415,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/9e5ab4c0400369102cac4f362495781b5c4becd5"
+    },
+    {
+      "path": "tests/test_runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73af281c79aec23c40d7165512f1a5502ffbfae3",
+      "size": 7559,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/73af281c79aec23c40d7165512f1a5502ffbfae3"
+    },
+    {
+      "path": "tests/test_shortlist.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d680af5e241340e22d15e460d31e6332110ec8ae",
+      "size": 14615,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/d680af5e241340e22d15e460d31e6332110ec8ae"
+    },
+    {
+      "path": "tests/test_snake.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98edbd2aee2fc6a064e50a776b2957ed55ea2eb9",
+      "size": 6874,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/98edbd2aee2fc6a064e50a776b2957ed55ea2eb9"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b649db4954e1ad973ce58cbaf20ba56038545424",
+      "size": 383906,
+      "url": "https://api.github.com/repos/mizorewww/laya-mlx/git/blobs/b649db4954e1ad973ce58cbaf20ba56038545424"
+    }
+  ],
+  "truncated": false
+}

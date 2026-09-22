@@ -1,0 +1,105 @@
+{
+  "bundle": "artifacts/moka-tiny-int8",
+  "precision": "int8",
+  "approximate": true,
+  "max_drift_budget": 0.02,
+  "matched": 41,
+  "total": 43,
+  "max_probability_drift": 0.009800000000000031,
+  "repeated_calls": 10,
+  "stable": true,
+  "passed": false,
+  "hardware_note": "Compared against the export-graph PyTorch reference on this host.",
+  "cases": [
+    {
+      "name": "email",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0023999999999999577
+    },
+    {
+      "name": "en",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.004300000000000026
+    },
+    {
+      "name": "zh",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.008500000000000008
+    },
+    {
+      "name": "de",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.004300000000000026
+    },
+    {
+      "name": "fr",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.004300000000000026
+    },
+    {
+      "name": "es",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.004300000000000026
+    },
+    {
+      "name": "hi",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.004300000000000026
+    },
+    {
+      "name": "ja",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.004300000000000026
+    },
+    {
+      "name": "ru",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.004300000000000026
+    },
+    {
+      "name": "empty_state",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.009800000000000031
+    },
+    {
+      "name": "long",
+      "matched": 1,
+      "total": 3,
+      "drift": 0.0023000000000000242
+    },
+    {
+      "name": "conversation",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0027000000000000357
+    },
+    {
+      "name": "mask_literals",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.006700000000000039
+    },
+    {
+      "name": "structured",
+      "matched": 3,
+      "total": 3,
+      "drift": 0.0038000000000000256
+    },
+    {
+      "name": "twenty_options",
+      "matched": 1,
+      "total": 1,
+      "drift": 0.00269999999999998
+    }
+  ]
+}
