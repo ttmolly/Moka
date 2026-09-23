@@ -8,7 +8,9 @@ gate, and the in-browser studio can run a real ONNX graph end-to-end on a
 
 from __future__ import annotations
 
+import argparse
 import json
+import os
 import random
 import shutil
 import sys
@@ -273,7 +275,67 @@ def train(source_dir: Path):
     return source_dir, agent_cfg
 
 
-def main():
+def _repo_root() -> Path:
+    return ROOT
+
+
+def resolve_studio_copy(explicit: str | None) -> Path | None:
+    """Copy destination for the in-browser studio weights.
+
+    Priority: ``--studio-copy``, then ``$MOKA_STUDIO_COPY``, then
+    ``<repo-parent>/public/models/moka-tiny`` when that parent already
+    exists (monorepo studio). Never invent a sandbox path. Never create
+    missing parents outside this package tree.
+    """
+    candidates = []
+    if explicit:
+        candidates.append(Path(explicit).expanduser())
+    env = os.environ.get("MOKA_STUDIO_COPY")
+    if env:
+        candidates.append(Path(env).expanduser())
+    monorepo = _repo_root().parent / "public" / "models" / "moka-tiny"
+    candidates.append(monorepo)
+
+    seen = set()
+    for dest in candidates:
+        dest = dest.resolve()
+        if dest in seen:
+            continue
+        seen.add(dest)
+        if dest.parent.is_dir():
+            return dest
+    return None
+
+
+def maybe_copy_studio(bundle: Path, dest: Path | None) -> None:
+    if dest is None:
+        print("studio copy skipped (no existing parent directory)")
+        return
+    dest = dest.resolve()
+    repo = _repo_root().resolve()
+    inside_repo = dest == repo or repo in dest.parents
+    if not dest.parent.is_dir():
+        if inside_repo:
+            dest.parent.mkdir(parents=True, exist_ok=True)
+        else:
+            print(f"studio copy skipped (parent missing outside repo): {dest}")
+            return
+    if dest.exists():
+        shutil.rmtree(dest)
+    shutil.copytree(bundle, dest)
+    print(f"studio copy -> {dest}")
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--studio-copy",
+        default=None,
+        help="Directory to copy the ONNX bundle into for the web studio. "
+        "Default: $MOKA_STUDIO_COPY, else <repo-parent>/public/models/moka-tiny "
+        "only if that parent already exists.",
+    )
+    args = parser.parse_args(argv)
     artifacts = ROOT / "artifacts" / "tiny-source"
     if artifacts.exists():
         shutil.rmtree(artifacts)
@@ -291,12 +353,8 @@ def main():
         precision="fp32",
         attention="explicit",
     )
-    public = Path("/workspace/public/models/moka-tiny")
-    if public.exists():
-        shutil.rmtree(public)
-    shutil.copytree(out, public)
     print(f"bundle -> {out}")
-    print(f"studio copy -> {public}")
+    maybe_copy_studio(out, resolve_studio_copy(args.studio_copy))
 
 
 if __name__ == "__main__":
