@@ -89,3 +89,17 @@ the work that was actually planned.
 
 Nothing in this file is a dataset. Checkpoint 2 starts only after
 this decision is on `main` and reviewed.
+
+## Frozen eval lock (checkpoint 2)
+
+File: `eval/frozen_eval.jsonl`
+
+Recorded `sha256sum` output:
+
+```
+ff6e662a9fb1c2f3c39a7f91200b73b2115a7072063468c2c815a8053a1cd098  frozen_eval.jsonl
+```
+
+Labeler for every row: `construction-rule` (answer is a function of
+facts written into the state). Not xAI API Output. Not consumer-chat
+Grok traces.
