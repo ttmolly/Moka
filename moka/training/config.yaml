@@ -1,0 +1,27 @@
+model:
+  name: moka-v1
+  backbone: answerdotai/ModernBERT-large
+  family: modernbert-large
+  max_len: 512
+  head_max_len: 192
+  head_layers: 2
+  max_options: 32
+
+data:
+  train: training/data/train.jsonl
+  val: training/data/val.jsonl
+  frozen_eval: eval/frozen_eval.jsonl
+  frozen_eval_sha256: ff6e662a9fb1c2f3c39a7f91200b73b2115a7072063468c2c815a8053a1cd098
+
+train:
+  epochs: 3
+  batch_size: 8
+  lr: 2.0e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.06
+  grad_clip: 1.0
+  seed: 2026
+  amp: true
+
+output:
+  checkpoint_dir: checkpoints/moka-v1
