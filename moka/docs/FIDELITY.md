@@ -40,6 +40,12 @@ must keep `"passed": false` and that configuration must not be advertised
 as the default. Quietly omitting a failed row is the thing this document
 exists to prevent.
 
+Pending rows (`laya` / `laya-typed-decisions` / `laya-multilingual`, any
+CUDA / TensorRT / OpenVINO path) stay marked **not converted** / **not
+present** until a `fidelity-*.json` from a host that actually ran the
+gate replaces that cell. Numbers are copied from the JSON; no row is
+dropped because it is slower, equal, or over budget.
+
 ## Known limits, stated
 
 - **The requested 10× vs PyTorch was not a target we could even attempt on

@@ -29,10 +29,13 @@ CPU is the default because CUDA and TensorRT are absent from many Linux hosts,
 and TensorRT has a history of passing speed tests while failing answer-match
 gates. If a path does not pay off, it is documented as such rather than hidden.
 
-On this conversion host — Intel Xeon Platinum 8481C, 2 cores, ~4 GiB RAM, no
-NVIDIA GPU — full 322M/421M Hub conversion did not fit. The CLI still targets
-those checkpoints. CI and the studio run a compact `moka-tiny` student through
-the **same** export graph so the gate is real, not theatrical.
+**This checkout did not convert the official checkpoints.** A 421M FP32 export
+needs about 6.7 GiB MemAvailable; the conversion hosts used so far have been
+short of that with no swap. `models/typed`, `models/english`, and `models/multi`
+are not in git. Commands to produce them: [docs/RELEASE.md](docs/RELEASE.md).
+
+CI and the optional studio run a compact `moka-tiny` student through the **same**
+export graph. That student is a distilled reference model, not Laya.
 
 ## Install
 
@@ -45,7 +48,8 @@ pip install 'moka[convert,demo]'
 ```python
 import moka
 
-agent = moka.load("./models/moka-tiny")
+# replace with models/typed once you've converted it yourself — see RELEASE.md
+agent = moka.load("./artifacts/moka-tiny")
 result = agent.predict(
     "The customer requests a refund of a duplicate payment.",
     {
@@ -57,6 +61,10 @@ result = agent.predict(
 )
 print(result["answers"]["refund"])
 ```
+
+To exercise the graph without a Hub conversion, build the distilled student
+(not Laya) with `python scripts/build_tiny_bundle.py` and load
+`./artifacts/moka-tiny`.
 
 `choice` returns a selected label and a probability for every label. `score`
 returns the expected zero-based category index, its legend and probabilities.

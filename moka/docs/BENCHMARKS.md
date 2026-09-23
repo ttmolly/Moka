@@ -53,6 +53,12 @@ Snake (headless, 180 steps, seed 7, 12×8): score 13, 6 shield interventions,
 `benchmarks/results/snake-tiny.json`.
 
 
+Official 322M/421M rows are absent until `bench-typed.json`,
+`bench-english.json`, and `bench-multi.json` from a host that actually
+converted those checkpoints replace this section. Each row is scoped to
+that JSON (same checkpoint, same question count, same host). A slower
+or higher-RAM row is kept.
+
 ## Comparison contract
 
 A speedup is only a speedup against **the same checkpoint, the same
