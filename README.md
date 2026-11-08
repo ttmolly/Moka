@@ -10,7 +10,7 @@ Independent community port. Not an official Convai Innovations or laya-coreml re
 
 ---
 
-## Setup + Play Snake
+## Setup + Play Snake (Linux / macOS)
 
 The terminal Snake demo is driven by the model. The tiny student is included so you can run it immediately after install.
 
@@ -32,7 +32,43 @@ pip install -e ".[demo]"
 moka-snake --model artifacts/moka-tiny
 ```
 
-**Controls**
+---
+
+## Setup + Play Snake (Windows)
+
+Same package works on Windows (Python 3.10+ and Git required). Open **PowerShell** or **Command Prompt**.
+
+### One command (PowerShell)
+
+```powershell
+git clone https://github.com/ttmolly/Moka.git; cd Moka; python -m venv .venv; .\.venv\Scripts\Activate.ps1; pip install -U pip; pip install -e ".[demo]"; moka-snake --model artifacts/moka-tiny
+```
+
+### Or step by step (PowerShell)
+
+```powershell
+git clone https://github.com/ttmolly/Moka.git
+cd Moka
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -U pip
+pip install -e ".[demo]"
+moka-snake --model artifacts/moka-tiny
+```
+
+### Command Prompt version
+
+```cmd
+git clone https://github.com/ttmolly/Moka.git
+cd Moka
+python -m venv .venv
+.venv\Scripts\activate.bat
+pip install -U pip
+pip install -e ".[demo]"
+moka-snake --model artifacts/moka-tiny
+```
+
+**Controls** (same on Windows)
 - Arrow keys or WASD (the model is driving; this is mostly for watching)
 - `Ctrl+C` to quit
 
