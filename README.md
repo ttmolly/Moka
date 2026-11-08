@@ -10,13 +10,25 @@ Independent community port. Not an official Convai Innovations or laya-coreml re
 
 ---
 
-## Play Snake
+## Setup + Play Snake
 
-The terminal Snake demo is driven by the model. The tiny student is included so you can run it immediately.
+The terminal Snake demo is driven by the model. The tiny student is included so you can run it immediately after install.
+
+### One command (after clone)
 
 ```bash
-cd ~/moka/current
+git clone https://github.com/ttmolly/Moka.git && cd Moka && python3 -m venv .venv && source .venv/bin/activate && pip install -U pip && pip install -e ".[demo]" && moka-snake --model artifacts/moka-tiny
+```
+
+### Or step by step
+
+```bash
+git clone https://github.com/ttmolly/Moka.git
+cd Moka
+python3 -m venv .venv
 source .venv/bin/activate
+pip install -U pip
+pip install -e ".[demo]"
 moka-snake --model artifacts/moka-tiny
 ```
 
